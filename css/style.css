@@ -263,7 +263,7 @@ h1 {
 
 /* line 275, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 .content .wrapper {
-  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0px 18px 10px 10px rgba(0, 0, 0, 0.2); }
 /* line 278, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 .content p:first-of-type {
   margin-top: 0; }
@@ -403,9 +403,9 @@ form #foli6, form #foli8 {
   margin-right: 2%; }
 /* line 425, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 form #foli11 {
-  outline: 1px solid #000;
+  border: 1px solid #000;
   padding: 16px;
-  height: 52px;
+  height: 54px;
   overflow: hidden; }
   /* line 430, /Users/frankwang/src/parkwayplace/source/css/style.scss */
   form #foli11 label {
