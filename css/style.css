@@ -10,7 +10,7 @@ img {
 /* line 12, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 body {
   font-family: 'Open Sans', Helvetica, sans-serif;
-  background-image: url("/img/body_bg.png"); }
+  background-image: url("../img/body_bg.png"); }
 
 /* line 17, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 h2 {
@@ -262,28 +262,31 @@ h1 {
   font-size: 39px; }
 
 /* line 275, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+.content .wrapper {
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.2); }
+/* line 278, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 .content p:first-of-type {
   margin-top: 0; }
-/* line 278, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 281, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 .content p:last-of-type {
   margin-bottom: 0;
   padding-bottom: 20px; }
 
-/* line 284, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 287, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 .promoted {
   width: 100%;
   color: #fff; }
-  /* line 287, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+  /* line 290, /Users/frankwang/src/parkwayplace/source/css/style.scss */
   .promoted p {
     margin: 0;
     text-align: center; }
-  /* line 291, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+  /* line 294, /Users/frankwang/src/parkwayplace/source/css/style.scss */
   .promoted .box {
     position: relative;
     width: 33.33%;
     width: calc(100% / 3);
     float: left; }
-  /* line 297, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+  /* line 300, /Users/frankwang/src/parkwayplace/source/css/style.scss */
   .promoted .promotion {
     position: absolute;
     left: 0;
@@ -292,20 +295,20 @@ h1 {
     padding: 20px;
     background: rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease; }
-  /* line 306, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+  /* line 309, /Users/frankwang/src/parkwayplace/source/css/style.scss */
   .promoted .box:hover .promotion {
     background: rgba(0, 0, 0, 0.6); }
-  /* line 310, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+  /* line 313, /Users/frankwang/src/parkwayplace/source/css/style.scss */
   .promoted .box:nth-child(odd) .promotion {
     top: 0; }
-  /* line 315, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+  /* line 318, /Users/frankwang/src/parkwayplace/source/css/style.scss */
   .promoted .box:nth-child(even) .promotion {
     top: 50%; }
 
-/* line 322, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 325, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 .row .box:first-child {
   margin: 0; }
-/* line 325, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 328, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 .row .box {
   float: left;
   width: 32%;
@@ -313,16 +316,16 @@ h1 {
   background: #ccc;
   position: relative;
   overflow: hidden; }
-/* line 333, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 336, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 .row .box:hover img {
   transform: scale(1.08); }
-/* line 336, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 339, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 .row img {
   max-width: none;
   width: 100%;
   height: auto;
   transition: all 0.5s ease; }
-/* line 342, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 345, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 .row p {
   position: absolute;
   bottom: 0;
@@ -333,123 +336,122 @@ h1 {
   padding: 20px;
   color: #fff;
   font-weight: 300; }
-/* line 353, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 356, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 .row .box:hover p {
   background: rgba(0, 0, 0, 0.6); }
 
-/* line 360, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 363, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 .find, .call {
   width: 50%;
   float: left;
   padding-left: 20px; }
-  /* line 364, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+  /* line 367, /Users/frankwang/src/parkwayplace/source/css/style.scss */
   .find ul, .call ul {
     padding-left: 0;
     margin: 0;
     list-style: none; }
 
-/* line 371, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 374, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 .find {
   border-right: 1px solid #c2c1c1; }
 
-/* line 375, /Users/frankwang/src/parkwayplace/source/css/style.scss */
-form {
-  padding-bottom: 20px; }
-  /* line 377, /Users/frankwang/src/parkwayplace/source/css/style.scss */
-  form h3 {
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 10px; }
-
-/* line 384, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 378, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 input, select {
   display: block;
   border: 1px solid black;
   outline: none;
   font-family: "Open Sans"; }
 
-/* line 391, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 385, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 input[type=submit] {
   margin: 0 auto;
   background: #fff;
   border: 1px solid #000; }
 
-/* line 397, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 391, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 input[type=submit]:hover {
   background: #CE4E4A;
   color: #fff; }
 
-/* line 402, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 396, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 input:focus, select:focus {
   outline: 2px solid #cdcf63; }
 
-/* line 406, /Users/frankwang/src/parkwayplace/source/css/style.scss */
-.name, .email, .phone, .category {
-  float: left;
-  width: 49%;
-  position: relative;
-  margin-bottom: 2%; }
-
-/* line 413, /Users/frankwang/src/parkwayplace/source/css/style.scss */
-.phone {
-  clear: both; }
-
-/* line 417, /Users/frankwang/src/parkwayplace/source/css/style.scss */
-#name, #email, #phone, #category {
-  width: 100%;
-  padding: 15px 15px 15px 5em; }
-
-/* line 422, /Users/frankwang/src/parkwayplace/source/css/style.scss */
-#phone {
-  padding-left: 9em; }
-
-/* line 426, /Users/frankwang/src/parkwayplace/source/css/style.scss */
-#email {
-  padding-left: 9em; }
-
-/* line 430, /Users/frankwang/src/parkwayplace/source/css/style.scss */
-label[for=name], label[for=email], label[for=phone], label[for=category] {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 16px; }
-
-/* line 437, /Users/frankwang/src/parkwayplace/source/css/style.scss */
-.email, .category {
-  margin-left: 2%; }
-
-/* line 441, /Users/frankwang/src/parkwayplace/source/css/style.scss */
-.category {
-  border: 1px solid black;
-  padding: 15px 15px 15px 8em;
-  overflow: hidden;
-  height: 54px; }
-
-/* line 448, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 400, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 textarea {
   width: 100%;
   height: 400px;
   margin-bottom: 20px; }
 
-/* line 454, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 406, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 textarea:focus {
   outline: 2px solid #cdcf63; }
 
-/* line 460, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 411, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+form ul {
+  list-style: none;
+  padding-left: 0; }
+/* line 415, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+form li {
+  position: relative;
+  display: block;
+  width: 49%;
+  float: left;
+  margin-bottom: 2%; }
+/* line 422, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+form #foli6, form #foli8 {
+  margin-right: 2%; }
+/* line 425, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+form #foli11 {
+  outline: 1px solid #000;
+  padding: 16px;
+  height: 52px;
+  overflow: hidden; }
+  /* line 430, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+  form #foli11 label {
+    display: inline-block; }
+  /* line 433, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+  form #foli11 div {
+    display: inline-block;
+    float: right; }
+/* line 438, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+form li.hide {
+  display: none; }
+/* line 441, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+form #Field6, form #Field7, form #Field8 {
+  width: 100%;
+  padding: 15px 15px 15px 5em; }
+/* line 445, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+form #Field8 {
+  padding-left: 9em; }
+/* line 448, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+form #foli9, form .buttons {
+  width: 100%; }
+/* line 451, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+form #Field9 {
+  width: 100%; }
+/* line 454, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+form label[for=Field6], form label[for=Field7], form label[for=Field8] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 16px; }
+
+/* line 464, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 iframe.map {
   display: block;
   float: right;
   max-width: 800px;
   width: 50%; }
 
-/* line 467, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+/* line 471, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 ol {
   width: 50%;
   float: left;
   padding-left: 0;
   padding-right: 20px;
   list-style-position: inside; }
-  /* line 473, /Users/frankwang/src/parkwayplace/source/css/style.scss */
+  /* line 477, /Users/frankwang/src/parkwayplace/source/css/style.scss */
   ol li {
     padding: 20px 0;
     border-bottom: 1px solid #c2c1c1; }
