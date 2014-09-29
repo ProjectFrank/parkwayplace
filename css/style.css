@@ -10,7 +10,7 @@ img {
 /* line 12, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 body {
   font-family: 'Open Sans', Helvetica, sans-serif;
-  background-image: url("../img/body_bg.png"); }
+  background-image: url("/img/body_bg.png"); }
 
 /* line 17, /Users/frankwang/src/parkwayplace/source/css/style.scss */
 h2 {
